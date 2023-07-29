@@ -21,3 +21,7 @@ To make a new manifest contribution, please read the [Contributing Guide](https:
 
 - Modify the Readme.md and the bin/auto-pr.ps1 files accordingly.
 - Enable GitHub Actions for this repository.
+
+## 鸣谢
+
+- [ZvonimirSun](https://github.com/ZvonimirSun/scoop-iszy): CFW 的 manifest
