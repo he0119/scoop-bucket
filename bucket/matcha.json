@@ -16,6 +16,6 @@
         "github": "https://github.com/A-kirami/matcha"
     },
     "autoupdate": {
-        "url": "https://github.com/A-kirami/matcha/releases/download/v$version/matcha_v$version_x64_zh-CN.msi"
+        "url": "https://github.com/A-kirami/matcha/releases/download/v$version/matcha_$version_x64_zh-CN.msi"
     }
 }
