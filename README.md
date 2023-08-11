@@ -5,13 +5,39 @@
 
 Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
+## How do I use this template?
+
+1. Generate your own copy of this repository with the "Use this template"
+   button.
+2. Allow all GitHub Actions:
+   - Navigate to `Settings` - `Actions` - `General` - `Actions permissions`.
+   - Select `Allow all actions and reusable workflows`.
+   - Then `Save`.
+3. Allow writing to the repository from within GitHub Actions:
+   - Navigate to `Settings` - `Actions` - `General` - `Workflow permissions`.
+   - Select `Read and write permissions`.
+   - Then `Save`.
+4. Document the bucket in `README.md`.
+5. Replace the placeholder repository string in `bin/auto-pr.ps1`.
+6. Create new manifests by copying `bucket/app-name.json.template` to
+   `bucket/<app-name>.json`.
+7. Commit and push changes.
+
 ## How do I install these manifests?
 
-To add this bucket, run `scoop bucket add he0119 https://github.com/he0119/scoop-bucket`. To install, do `scoop install <manifest>`.
+After manifests have been committed and pushed, run the following:
+
+```pwsh
+scoop bucket add he0119 https://github.com/he0119/scoop-bucket
+scoop install he0119/<manifestname>
+```
 
 ## How do I contribute new manifests?
 
-To make a new manifest contribution, please read the [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md).
+To make a new manifest contribution, please read the [Contributing
+Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
+and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
+wiki page.
 
 ## Credits
 
