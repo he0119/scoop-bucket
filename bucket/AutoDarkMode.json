@@ -1,12 +1,20 @@
 {
     "homepage": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode",
+    "description": "Automatically switches between the dark and light theme of Windows 10 and Windows 11",
     "hash": "eee63f033dd1fd0994907b761093bcac9b93c48b85f045d9ef33c23b8ba19b5d",
-    "extract_dir": "",
     "license": "GPL-3.0",
     "version": "10.3.0.90",
     "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/10.3.0.90/AutoDarkModeX_10.3.0.90.zip",
-    "depends": "",
     "bin": "AutoDarkModeApp.exe",
+    "shortcuts": [
+        [
+            "AutoDarkModeApp.exe",
+            "AutoDarkModeApp"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode"
+    },
     "autoupdate": {
         "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/$version/AutoDarkModeX_$version.zip#/autodarkmode.7z",
         "hash": {
