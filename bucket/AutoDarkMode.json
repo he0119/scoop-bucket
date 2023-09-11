@@ -5,6 +5,7 @@
     "license": "GPL-3.0",
     "version": "10.4.0.35",
     "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/10.4.0.35/AutoDarkModeX_10.4.0.35.zip#/autodarkmode.7z",
+    "extract_dir": "adm-app",
     "bin": "AutoDarkModeApp.exe",
     "shortcuts": [
         [
