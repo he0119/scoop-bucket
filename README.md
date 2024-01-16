@@ -17,3 +17,4 @@ To make a new manifest contribution, please read the [Contributing Guide](https:
 
 - [ZvonimirSun](https://github.com/ZvonimirSun/scoop-iszy): manifest for [clash-for-windows](https://github.com/Fndroid/clash_for_windows_pkg)
 - [hoilc](https://github.com/hoilc/scoop-lemon): manifest for [Zotero Beta](https://www.zotero.org/support/beta_builds)
+- [wsw0108](https://github.com/wsw0108/scoop-bucket): manifest for [im-select](https://github.com/daipeihust/im-select)
