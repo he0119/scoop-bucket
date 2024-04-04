@@ -19,3 +19,4 @@ To make a new manifest contribution, please read the [Contributing Guide](https:
 - [hoilc](https://github.com/hoilc/scoop-lemon): manifest for [Zotero Beta](https://www.zotero.org/support/beta_builds)
 - [wsw0108](https://github.com/wsw0108/scoop-bucket): manifest for [im-select](https://github.com/daipeihust/im-select)
 - [kkzzhizhou](https://github.com/kkzzhizhou/scoop-apps): manifest for [vscode185](https://code.visualstudio.com/)
+- [ZephyrY7](https://github.com/ZephyrY7/zault): manifest for [钱迹](https://qianjiapp.com/)
