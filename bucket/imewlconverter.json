@@ -16,6 +16,6 @@
         "github": "https://github.com/studyzy/imewlconverter"
     },
     "autoupdate": {
-        "url": "https://github.com/studyzy/imewlconverter/releases/download/v$version/imewlconverter-v$version-windows.zip"
+        "url": "https://github.com/studyzy/imewlconverter/releases/download/v$version/imewlconverter_Windows.zip"
     }
 }
