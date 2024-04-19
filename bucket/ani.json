@@ -1,5 +1,6 @@
 {
     "version": "3.0.0-beta13",
+    "description": "一站式在线弹幕追番平台",
     "homepage": "https://github.com/open-ani/ani/",
     "url": "https://github.com/open-ani/ani/releases/download/v3.0.0-beta13/ani-3.0.0-beta13-windows-amd64.zip",
     "hash": "b73c3aae11e36f1836a23da49ef4a5ccf16bf1454999283d6c9271475652f0bb",
