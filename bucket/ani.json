@@ -1,5 +1,5 @@
 {
-    "version": "3.0.0-beta13",
+    "version": "3.0.0-beta15",
     "description": "一站式在线弹幕追番平台",
     "homepage": "https://github.com/open-ani/ani/",
     "url": "https://github.com/open-ani/ani/releases/download/v3.0.0-beta13/ani-3.0.0-beta13-windows-amd64.zip",
@@ -15,7 +15,7 @@
     "license": "GPL-3.0-only",
     "checkver": {
         "url": "https://github.com/open-ani/ani/releases/latest",
-        "regex": "v(?<version>[\\d\\.]+(?:-beta\\d+))"
+        "regex": "v(?<version>[\\d\\.]+(?:-beta\\d+)?)"
     },
     "autoupdate": {
         "url": "https://github.com/open-ani/ani/releases/download/v$matchVersion/ani-$matchVersion-windows-amd64.zip"
