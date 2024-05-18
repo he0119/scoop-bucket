@@ -18,6 +18,6 @@
         "regex": "v(?<version>[\\d\\.]+(?:-beta\\d+)?)"
     },
     "autoupdate": {
-        "url": "https://github.com/open-ani/ani/releases/download/v$matchVersion/ani-$matchVersion-windows-amd64.zip"
+        "url": "https://github.com/open-ani/ani/releases/download/v$matchVersion/ani-$matchVersion-windows-x86_64.zip"
     }
 }
