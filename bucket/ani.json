@@ -14,10 +14,9 @@
     ],
     "license": "GPL-3.0-only",
     "checkver": {
-        "url": "https://github.com/open-ani/ani/releases/latest",
-        "regex": "v(?<version>[\\d\\.]+(?:-rc\\d+)?)"
+        "github": "https://github.com/open-ani/ani"
     },
     "autoupdate": {
-        "url": "https://github.com/open-ani/ani/releases/download/v$matchVersion/ani-$matchVersion-windows-x86_64.zip"
+        "url": "https://github.com/open-ani/ani/releases/download/v$version/ani-$version-windows-x86_64.zip"
     }
 }
