@@ -25,7 +25,7 @@
     "persist": "Options.ini",
     "checkver": {
         "url": "https://www.diskgenius.cn/download.php",
-        "regex": "\\[V([\\d.]+)\\]"
+        "regex": "V([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
