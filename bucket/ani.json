@@ -1,9 +1,9 @@
 {
-    "version": "3.4.0",
+    "version": "3.5.0",
     "description": "一站式在线弹幕追番平台",
     "homepage": "https://github.com/open-ani/ani/",
-    "url": "https://github.com/open-ani/ani/releases/download/v3.4.0/ani-3.4.0-windows-x86_64.zip",
-    "hash": "771b9834b7e0e81262d4dbe6ad77aa35103e07f972e681e8ba62991e0709e72c",
+    "url": "https://github.com/open-ani/ani/releases/download/v3.5.0/ani-3.5.0-windows-x86_64.zip",
+    "hash": "76826d8f175132ceeb3745985f1f2e9f8cf1be3594c0f61581fe11fd126a69e2",
     "extract_dir": "Ani",
     "bin": "Ani.exe",
     "shortcuts": [
