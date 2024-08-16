@@ -1,0 +1,41 @@
+{
+    "version": "7.0.1",
+    "description": "Open-source reference management software to manage bibliographic data and related research materials.",
+    "homepage": "https://www.zotero.org/",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.zotero.org/client/release/7.0.1/Zotero-7.0.1_x64_setup.exe#/dl.7z",
+            "hash": "84748527aac08ee49b0d0e9a77c0cef161a1ea99247b6ae2f1ef1ac62c9c504e"
+        },
+        "32bit": {
+            "url": "https://download.zotero.org/client/release/7.0.1/Zotero-7.0.1_win32_setup.exe#/dl.7z",
+            "hash": "d5bbc8ce4da9d8df9bca7476f523c349bbbab4211aabcfa5961eee583daec855"
+        }
+    },
+    "extract_dir": "core",
+    "bin": "zotero.exe",
+    "shortcuts": [
+        [
+            "zotero.exe",
+            "Zotero"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "try { $detail = Invoke-WebRequest 'https://www.zotero.org/download/client/dl?channel=release&platform=win-x64' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
+            "return $detail.Headers.Location"
+        ],
+        "regex": "Zotero-([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.zotero.org/client/release/$version/Zotero-$version_x64_setup.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://download.zotero.org/client/release/$version/Zotero-$version_win32_setup.exe#/dl.7z"
+            }
+        }
+    }
+}
