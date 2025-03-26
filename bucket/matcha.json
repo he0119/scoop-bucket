@@ -1,11 +1,11 @@
 {
-    "version": "0.4.6",
+    "version": "0.4.7",
     "description": "Matcha is mock chat. 模拟聊天交互的辅助开发工具",
     "homepage": "https://github.com/A-kirami/matcha",
     "license": "AGPL-3.0",
-    "url": "https://github.com/A-kirami/matcha/releases/download/v0.4.6/matcha_0.4.6_x64_zh-CN.msi",
+    "url": "https://github.com/A-kirami/matcha/releases/download/v0.4.7/matcha_0.4.7_x64_zh-CN.msi",
     "extract_dir": "PFiles\\matcha",
-    "hash": "c3fcc76941499496b11e4ea50dd8c8d067c6c37d4f576e011722e425f4a7101d",
+    "hash": "f7e97ade9b25adb5dba209a97e1f2c5d6d085f281f9f9b45e53d13d03a6f90ba",
     "bin": "matcha.exe",
     "shortcuts": [
         [
