@@ -9,6 +9,7 @@
             "hash": "5be2dacf8f8117a451472e9e9aef8e100fba949c176bb287afa371d36dd8bbc8"
         }
     },
+    "bin": "kimi.exe",
     "checkver": {
         "github": "https://github.com/MoonshotAI/kimi-cli"
     },
